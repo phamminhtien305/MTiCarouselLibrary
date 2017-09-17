@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MTiCarouselLibrary_Tests' do
+  pod 'MTiCarouselLibrary', :path => '../'
+  
+  
+end
