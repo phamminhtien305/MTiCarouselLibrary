@@ -1,0 +1,6 @@
+framework module Pods_MTiCarouselLibrary_Tests {
+  umbrella header "Pods-MTiCarouselLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "MTiCarouselLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MTiCarouselLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/phamminhtien305/MTiCarouselLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "phamminhtien305": "phamminhtien305@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/phamminhtien305/MTiCarouselLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTiCarouselLibrary/Classes/**/*"
+}

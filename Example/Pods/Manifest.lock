@@ -1,0 +1,16 @@
+PODS:
+  - MTiCarouselLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MTiCarouselLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MTiCarouselLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MTiCarouselLibrary: 40f7a05e9f0691e97445c4b56a4d70da54e6cf4c
+
+PODFILE CHECKSUM: 70299443f7354ef50af852bd1e0c59d978c39403
+
+COCOAPODS: 1.1.1

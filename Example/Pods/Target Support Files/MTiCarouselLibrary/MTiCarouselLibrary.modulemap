@@ -1,0 +1,6 @@
+framework module MTiCarouselLibrary {
+  umbrella header "MTiCarouselLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
