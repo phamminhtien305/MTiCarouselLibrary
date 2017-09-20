@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A9EFC373CE05097C4B19D4786A6BB9E63EA3A2C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD42A365BCDE886ED754AD1BCA0B9C43FDFB90B2" : 9223372036854775807,
+    "A9EFC373CE05097C4B19D4786A6BB9E63EA3A2C1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B50E22C-A812-4D14-8390-05AA48640F0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD42A365BCDE886ED754AD1BCA0B9C43FDFB90B2" : "",
+    "A9EFC373CE05097C4B19D4786A6BB9E63EA3A2C1" : "MTiCarouselLibrary\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/Pods\/Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/phamminhtien305\/MTiCarouselLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9EFC373CE05097C4B19D4786A6BB9E63EA3A2C1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/funnylab\/mticarousel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD42A365BCDE886ED754AD1BCA0B9C43FDFB90B2"
+    }
+  ]
+}

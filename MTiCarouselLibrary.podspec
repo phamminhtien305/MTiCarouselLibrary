@@ -32,11 +32,11 @@ MTiCarouselLibrary is small library. MTiCarouselLibrary is a class designed to s
 
   s.source_files = 'MTiCarouselLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MTiCarouselLibrary' => ['MTiCarouselLibrary/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'MTiCarouselLibrary' => ['MTiCarouselLibrary/Assets/*.png']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage', '~>3.7'
 end
