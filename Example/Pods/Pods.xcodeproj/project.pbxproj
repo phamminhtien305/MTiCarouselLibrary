@@ -40,6 +40,7 @@
 		738CA52C2CBE13A472102496B58C9BE2 /* Pods-MTiCarouselLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTiCarouselLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99DDFB425981EE4F0239DE3939FF5CFD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9C85F7D11F721BAE0005BD53 /* MTiCarouselLibrary.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MTiCarouselLibrary.podspec; path = ../../MTiCarouselLibrary.podspec; sourceTree = "<group>"; };
 		9C97937C1F7216AC004E25A9 /* MTiCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTiCarousel.framework; sourceTree = "<group>"; };
 		A10E17074B2B03998EEA4BDF174ED730 /* Pods-MTiCarouselLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTiCarouselLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B194256FFCB67A72B448423719507882 /* MTiCarouselLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTiCarouselLibrary-dummy.m"; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				9C85F7D11F721BAE0005BD53 /* MTiCarouselLibrary.podspec */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C63F4B9174A7B1D86E18904AA685792B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
