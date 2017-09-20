@@ -11,6 +11,7 @@
 		63FA0E0B823743CDCB7E4842F14BA9FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		91DC334B998D6505D20ED909E34AD8D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9334D0AE624CDAA0777B9431D7241373 /* MTiCarouselLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6D78A3A32CD28FA69536686A65F60 /* MTiCarouselLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C97937D1F7216AC004E25A9 /* MTiCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C97937C1F7216AC004E25A9 /* MTiCarousel.framework */; };
 		C3D13EAC80D9F22E3280ED7D7378ED15 /* Pods-MTiCarouselLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2289CBEA978B87B3B1218884DD4629DA /* Pods-MTiCarouselLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D753D6E8876438D1B07DC37AD039FB72 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDFB425981EE4F0239DE3939FF5CFD /* ReplaceMe.m */; };
 		F86535F71B7858F1564A9E98EBC43B01 /* MTiCarouselLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B194256FFCB67A72B448423719507882 /* MTiCarouselLibrary-dummy.m */; };
@@ -35,18 +36,19 @@
 		49B200CE0D25207EDE6B756450CC81B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB9E2C53047FC43845E10101C2AFD45 /* MTiCarouselLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTiCarouselLibrary.xcconfig; sourceTree = "<group>"; };
 		52883AAFAB985F81BCFB83712E713D18 /* Pods-MTiCarouselLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTiCarouselLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A26E703956DDD0A2B27C2063F5288F4 /* Pods-MTiCarouselLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MTiCarouselLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		6A26E703956DDD0A2B27C2063F5288F4 /* Pods-MTiCarouselLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MTiCarouselLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		738CA52C2CBE13A472102496B58C9BE2 /* Pods-MTiCarouselLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTiCarouselLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99DDFB425981EE4F0239DE3939FF5CFD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9C97937C1F7216AC004E25A9 /* MTiCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTiCarousel.framework; sourceTree = "<group>"; };
 		A10E17074B2B03998EEA4BDF174ED730 /* Pods-MTiCarouselLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTiCarouselLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B194256FFCB67A72B448423719507882 /* MTiCarouselLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTiCarouselLibrary-dummy.m"; sourceTree = "<group>"; };
 		C22BE4AA4D41F48DC3AEC73A8679BEC9 /* Pods-MTiCarouselLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTiCarouselLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2ED5A8F2D1E2669FF1E47A08665C795 /* Pods-MTiCarouselLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTiCarouselLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9B9D07A26592A5A66047221E6EF4CF2 /* MTiCarouselLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTiCarouselLibrary.framework; path = MTiCarouselLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B9D07A26592A5A66047221E6EF4CF2 /* MTiCarouselLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTiCarouselLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EDDE7B63D6341D3939FE82FF77318B10 /* Pods_MTiCarouselLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTiCarouselLibrary_Tests.framework; path = "Pods-MTiCarouselLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F55AC1CB7D12DB100E47A69710CEC9EA /* MTiCarouselLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MTiCarouselLibrary.modulemap; sourceTree = "<group>"; };
+		EDDE7B63D6341D3939FE82FF77318B10 /* Pods_MTiCarouselLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTiCarouselLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55AC1CB7D12DB100E47A69710CEC9EA /* MTiCarouselLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MTiCarouselLibrary.modulemap; sourceTree = "<group>"; };
 		FDD6D78A3A32CD28FA69536686A65F60 /* MTiCarouselLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTiCarouselLibrary-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63FA0E0B823743CDCB7E4842F14BA9FE /* Foundation.framework in Frameworks */,
+				9C97937D1F7216AC004E25A9 /* MTiCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +76,9 @@
 		0C16E86E9717DDEA506B49BAC395A126 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9C97937B1F7216AC004E25A9 /* MTiCarousel */,
 				99DDFB425981EE4F0239DE3939FF5CFD /* ReplaceMe.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -148,8 +151,15 @@
 			children = (
 				0C16E86E9717DDEA506B49BAC395A126 /* Classes */,
 			);
-			name = MTiCarouselLibrary;
 			path = MTiCarouselLibrary;
+			sourceTree = "<group>";
+		};
+		9C97937B1F7216AC004E25A9 /* MTiCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				9C97937C1F7216AC004E25A9 /* MTiCarousel.framework */,
+			);
+			path = MTiCarousel;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
